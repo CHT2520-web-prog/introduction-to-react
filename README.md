@@ -52,7 +52,7 @@ npm run dev
 
 ## Components, Props, State and Interactivity
 
-This walkthrough provides a practical introduction. For more complete information, refer to the [React documentation](https://react.dev/learn).
+This walkthrough provides a practical introduction to React. For more complete information, refer to the [React documentation](https://react.dev/learn).
 
 Open `index.html`. Apart from a single `<div id="root"></div>` element, it is an almost empty HTML page. It simply loads a JSX file:
 
