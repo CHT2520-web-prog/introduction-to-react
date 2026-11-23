@@ -38,9 +38,9 @@ You should see a **Get Started** page. Vite creates a simple React application b
 
 ## Starting and Stopping the Vite Server
 
-If you ever need to stop the Vite server enter Ctrl+C in ther terminal
+If you ever need to stop the Vite server enter Ctrl+C in the terminal
 
-To start the server and run your React app
+To start the server again and run your React app:
 
 Make sure you are in the example-react-app folder (use `cd`)
 
