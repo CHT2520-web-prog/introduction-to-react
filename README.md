@@ -856,8 +856,22 @@ const FilmList = ({ films }) => {
 
 Test the app again to make sure it still works.
 
-## Limitations
+## Improvements and Limitations
 
-This app shows many key features of React. However, it suffers from a major weaknesses. The data isn't persisted. As soon as the user closes the browser any new films we added are lost.
+The code in App.jsx is starting to get long. We could structure the different 'pages' and components into separate files and use `export` and `import`. For example:
 
-In the next session we will look at externalising the data in this app.
+```js
+import { Link } from "react-router-dom";
+
+function FilmLink({ film }) {
+  return (
+    <Link to={`/films/${film.id}`}>
+      {film.title}
+    </Link>
+  );
+}
+
+export default FilmLink;
+```
+
+This app shows many key features of React. However, it suffers from a major weaknesses. The data isn't persisted. As soon as the user closes the browser any new films we added are lost. In the next session we will look at externalising the data in this app.
