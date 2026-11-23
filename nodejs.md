@@ -76,3 +76,5 @@ And then
 ```
 npm -v
 ```
+
+You should get confirmation that Node.js has been installed. 
