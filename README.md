@@ -2,11 +2,9 @@
 
 Open your existing Codespace (the one we used in the early part of the course). 
 
-First, we need to install into the Codespace. Follow these instructions: [node.js](nodejs.md)
+This should already have Node.js and NPM installed. Node.js and NPM are necessary to build a React application. 
 
-Once node.js is installed.
-
-Create a new react project
+Create a new react project:
 
 ```bash
 npm create vite@latest example-react-app -- --template react
@@ -22,7 +20,7 @@ Ok to proceed? (y)
 
 Enter `y` to continue.
 
-It doesn't matter which linter you choose. ESLint is commonly used.
+You will then be asked about your choice of linter. It doesn't matter which linter you choose. ESLint is commonly used.
 
 > A linter is a tool that analyses your code and warns you about potential problems before you run it.
 
