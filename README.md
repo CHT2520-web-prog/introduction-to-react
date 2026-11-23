@@ -535,10 +535,9 @@ function App() {
   const highestID = Math.max(0, ...filmIds);
   const filmWithId = { ...newFilm, id: highestID + 1 };
   ```
-- We then update the films state variable with the new film.
-- `setFilms([...films, filmWithId]);`
+- We then update the films state variable with the new film `setFilms([...films, filmWithId]);`
 
-- Update `CreateFilm` so that it calls the `addFilm` function from `App`
+Update `CreateFilm` so that it calls the `addFilm` function from `App`
 
 ```js
 const CreateFilm = ({ onFilmAdd }) => {
