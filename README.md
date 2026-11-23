@@ -1,6 +1,8 @@
 # Intro to React
 
-First install [node.js](nodejs.md)
+Open your existing Codespace (the one we used in the early part of the course). 
+
+First, we need to install into the Codespace. Follow these instructions: [node.js](nodejs.md)
 
 Once node.js is installed.
 
